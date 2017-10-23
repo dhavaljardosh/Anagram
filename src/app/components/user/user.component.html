@@ -1,3 +1,20 @@
-<p>
-  user works!
+<div class="output-container">
+  <p style="font-weight:900;text-align:center; color:green;">
+    ANAGRAM OUTPUT
+  </p>
+  <h1 style="text-align:center">{{test}}</h1>
+</div>
+
+<div class="row">
+  <div class="input-field col s4">
+  </div>
+  <div class="input-field col s4">
+    <input type="text" [(ngModel)]="test" name="test">
+    <label for="test">Anagram Input</label>
+  </div>
+  <div class="input-field col s4">
+  </div>
+</div>
+<p style="text-align:center">
+  <a class="waves-effect waves-light btn-large center-align" (click)="refreshString()" style="margin:auto;background-color:#4a78bd;">Refresh Anagram</a>
 </p>
