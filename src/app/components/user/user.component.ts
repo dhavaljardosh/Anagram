@@ -14,11 +14,9 @@ export class UserComponent implements OnInit {
    }
 
   ngOnInit() {
-    //https://stackoverflow.com/questions/39927452/recursively-print-all-permutations-of-a-string-javascript
-    //Will be trying to implement this logic using 2 way binding
 
     /*
-    Take the input from the user from
+    Take the input from the user and Generate the Anagram
     */
 
   }
