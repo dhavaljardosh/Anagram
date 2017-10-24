@@ -1,6 +1,6 @@
 .output-container{
-  margin:10% 20% 0%;
-  min-height: 170px;
-  border: 3px dotted black;
-  overflow-x: scroll;
+  margin:10% 10% 0%;
+  min-height: 180px;
+  overflow-x: auto;
+
 }
